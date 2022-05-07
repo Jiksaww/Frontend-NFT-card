@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    font-family: outfit;
+
+}
+
+h1 {
+    color: white;
+
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 30%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+}
+.img{
+    width: 100%;
+    height: 50%;
+    display:flex ;
+    justify-content: center;
+   align-items:center ;
+}
+.img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 90%;
+    
+}
+.icon{
+   
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.icon span {
+    color:hsl(178, 100%, 50%);
+}
+span{
+
+color: aliceblue;
+}
+.img2 img{
+
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+.img2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+}
